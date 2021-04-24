@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HealthWatcher</string>
+    <string name="msg">Please enable all permission</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string name="facebook_application_id" translatable="false">1804782509676367</string>
+    <string name="facebook_login_protocol_schema" translatable="false">fb1804782509676367</string>
+</resources>
