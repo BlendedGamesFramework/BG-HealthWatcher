@@ -48,7 +48,7 @@ public class VitalSignsResults extends AppCompatActivity {
         ImageButton All = this.findViewById(R.id.SendAll);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://144.126.216.255:3005/")
+                .baseUrl("http://164.90.156.141:3005/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
