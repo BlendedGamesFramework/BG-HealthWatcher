@@ -45,7 +45,7 @@ public class RespirationResult extends AppCompatActivity {
         ImageButton SRR = (ImageButton) this.findViewById(R.id.SendRR);
         //IP Configuration and Json adapter
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://144.126.216.255:3005/")
+                .baseUrl("http://164.90.156.141:3005/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
