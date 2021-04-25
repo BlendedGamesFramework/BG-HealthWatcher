@@ -44,7 +44,7 @@ public class O2Result extends AppCompatActivity {
         TextView RO2 = this.findViewById(R.id.O2R);
         ImageButton SO2 = this.findViewById(R.id.SendO2);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://144.126.216.255:3005/")
+                .baseUrl("http://164.90.156.141:3005/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
